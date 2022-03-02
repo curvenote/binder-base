@@ -16,7 +16,7 @@ dependencies:
   - ipywidgets
   - ipympl
   - ipyleaflet
-  - ipythreejs
+  - pythreejs
   - pip
   - pip:
       - pyviz
