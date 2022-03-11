@@ -24,6 +24,7 @@ dependencies:
   - colorcet
   - cmocean
   - jupyter-server-proxy
-  - geoana
   - gdal
   - pip
+  - pip:
+      - geoana
