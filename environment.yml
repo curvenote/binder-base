@@ -1,9 +1,11 @@
-name: base
+name: binder-base
 channels:
   - conda-forge
   - default
 dependencies:
   - jupyterlab
+  - ipykernel
+  - ipywidgets
   - numpy
   - scipy
   - pandas
@@ -12,11 +14,16 @@ dependencies:
   - altair
   - seaborn
   - plotly
-  - ipykernel
-  - ipywidgets
   - ipympl
   - ipyleaflet
   - pythreejs
+  - empymod
+  - localtileserver
+  - shapely
+  - folium
+  - colorcet
+  - cmocean
+  - jupyter-server-proxy
+  - geoana
+  - gdal
   - pip
-  - pip:
-      - pyviz
