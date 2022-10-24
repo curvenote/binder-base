@@ -25,6 +25,7 @@ dependencies:
   - cmocean
   - jupyter-server-proxy
   - gdal
+  - curvenote
   - pip
   - pip:
       - geoana
